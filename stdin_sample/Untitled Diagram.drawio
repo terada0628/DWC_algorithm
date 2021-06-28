@@ -1,1 +1,249 @@
-<mxfile host="app.diagrams.net" modified="2021-06-28T08:32:55.375Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" version="14.8.1" etag="R_uTPEpUyyLvhNPTRBLh" type="github"><diagram id="IH9zdqjx0Pyof3WOVtUF">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-28T09:10:06.854Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="6gmVDpsNgSOzR68d3Vnp" version="14.8.1" type="github">
+  <diagram id="IH9zdqjx0Pyof3WOVtUF" name="Page-1">
+    <mxGraphModel dx="532" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="F6tVME8L1ireBxmZpX01-1" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;開始&lt;/font&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-2" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;標準入力&lt;/font&gt;&lt;/font&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="80" y="180" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-3" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="F6tVME8L1ireBxmZpX01-2" target="F6tVME8L1ireBxmZpX01-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="230" as="sourcePoint" />
+            <mxPoint x="150" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F6tVME8L1ireBxmZpX01-4" target="F6tVME8L1ireBxmZpX01-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-4" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;標準入力の値を1文字ずつ&lt;br&gt;要素として配列化&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-5" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="F6tVME8L1ireBxmZpX01-4" target="F6tVME8L1ireBxmZpX01-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="310" as="sourcePoint" />
+            <mxPoint x="150" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-13" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.3;" vertex="1" parent="1">
+          <mxGeometry x="60" y="460" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-14" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;お置き換え文字列を&lt;br&gt;格納するための配列を初期化&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="75" y="480" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-16" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;ループ終了&lt;/font&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1120" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-17" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;配列の中身を一つずつ&lt;br&gt;取り出しループする&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="620" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-25" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="F6tVME8L1ireBxmZpX01-17" target="F6tVME8L1ireBxmZpX01-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="135" y="600" as="sourcePoint" />
+            <mxPoint x="185" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-27" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="F6tVME8L1ireBxmZpX01-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="760" as="sourcePoint" />
+            <mxPoint x="185" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-28" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="159.71" y="1120" as="sourcePoint" />
+            <mxPoint x="159.71" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F6tVME8L1ireBxmZpX01-29" target="F6tVME8L1ireBxmZpX01-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F6tVME8L1ireBxmZpX01-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-34" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="F6tVME8L1ireBxmZpX01-33">
+          <mxGeometry x="-0.2333" y="-1" relative="1" as="geometry">
+            <mxPoint y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-29" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;取り出した要素の文字列が&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;「A」であるか？&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="65" y="760" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-30" value="置き換え文字列を&lt;br&gt;格納するための配列に&lt;br&gt;置き換え後の文字列を追加" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="60" y="940" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-32" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="860" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-35" value="置き換え文字列を&lt;br&gt;格納するための配列に&lt;br&gt;置き換え後の文字列を追加" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="940" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="F6tVME8L1ireBxmZpX01-36" target="F6tVME8L1ireBxmZpX01-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="810" />
+              <mxPoint x="580" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-46" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="F6tVME8L1ireBxmZpX01-45">
+          <mxGeometry x="0.1638" y="1" relative="1" as="geometry">
+            <mxPoint x="-7" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-47" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="F6tVME8L1ireBxmZpX01-45">
+          <mxGeometry x="0.1638" y="1" relative="1" as="geometry">
+            <mxPoint x="803" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-48" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="F6tVME8L1ireBxmZpX01-45">
+          <mxGeometry x="0.1638" y="1" relative="1" as="geometry">
+            <mxPoint x="533" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-49" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="F6tVME8L1ireBxmZpX01-45">
+          <mxGeometry x="0.1638" y="1" relative="1" as="geometry">
+            <mxPoint x="263" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.479;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="F6tVME8L1ireBxmZpX01-36" target="F6tVME8L1ireBxmZpX01-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-36" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;取り出した要素の文字列が&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;「E」であるか？&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="760" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F6tVME8L1ireBxmZpX01-37" target="F6tVME8L1ireBxmZpX01-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F6tVME8L1ireBxmZpX01-37" target="F6tVME8L1ireBxmZpX01-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-37" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;取り出した要素の文字列が&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;「G」であるか？&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="610" y="760" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F6tVME8L1ireBxmZpX01-38" target="F6tVME8L1ireBxmZpX01-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-38" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;どれにもあてはまらないとき&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="760" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F6tVME8L1ireBxmZpX01-39" target="F6tVME8L1ireBxmZpX01-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F6tVME8L1ireBxmZpX01-39" target="F6tVME8L1ireBxmZpX01-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-59" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="F6tVME8L1ireBxmZpX01-56">
+          <mxGeometry x="-0.0383" y="-3" relative="1" as="geometry">
+            <mxPoint x="-22" y="-33" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-60" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="F6tVME8L1ireBxmZpX01-56">
+          <mxGeometry x="-0.0383" y="-3" relative="1" as="geometry">
+            <mxPoint x="-562" y="-33" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-61" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="F6tVME8L1ireBxmZpX01-56">
+          <mxGeometry x="-0.0383" y="-3" relative="1" as="geometry">
+            <mxPoint x="-302" y="-33" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-62" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="F6tVME8L1ireBxmZpX01-56">
+          <mxGeometry x="-0.0383" y="-3" relative="1" as="geometry">
+            <mxPoint x="-829" y="-33" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-39" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;取り出した要素の文字列が&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;「O」であるか？&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="760" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F6tVME8L1ireBxmZpX01-40" target="F6tVME8L1ireBxmZpX01-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F6tVME8L1ireBxmZpX01-40" target="F6tVME8L1ireBxmZpX01-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-40" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;取り出した要素の文字列が&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;「I」であるか？&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="880" y="760" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-41" value="ループで取り出した要素の&lt;br&gt;文字列を置き換え&lt;br&gt;文字列を&lt;br&gt;格納するための&lt;br&gt;配列に追加する" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1415" y="950" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-42" value="置き換え文字列を&lt;br&gt;格納するための配列に&lt;br&gt;置き換え後の文字列を追加" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="950" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-43" value="置き換え文字列を&lt;br&gt;格納するための配列に&lt;br&gt;置き換え後の文字列を追加" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="875" y="950" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-44" value="置き換え文字列を&lt;br&gt;格納するための配列に&lt;br&gt;置き換え後の文字列を追加" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="605" y="950" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-63" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="F6tVME8L1ireBxmZpX01-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="1080" as="sourcePoint" />
+            <mxPoint x="930" y="1090" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1515" y="1080" />
+              <mxPoint x="1515" y="1050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-68" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="F6tVME8L1ireBxmZpX01-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="705" y="1080" as="sourcePoint" />
+            <mxPoint x="710" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-69" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="F6tVME8L1ireBxmZpX01-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="1080" as="sourcePoint" />
+            <mxPoint x="490" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-70" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="F6tVME8L1ireBxmZpX01-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="975" y="1080" as="sourcePoint" />
+            <mxPoint x="970" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-71" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="F6tVME8L1ireBxmZpX01-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1245" y="1080" as="sourcePoint" />
+            <mxPoint x="1250" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-72" value="配列の要素を全て&lt;br&gt;文字列連結する" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1250" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-75" value="" style="endArrow=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="F6tVME8L1ireBxmZpX01-72" target="F6tVME8L1ireBxmZpX01-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="1230" as="sourcePoint" />
+            <mxPoint x="180" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-76" value="連結した文字列を&lt;br&gt;標準出力" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1390" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-77" value="終了" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1510" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-78" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="F6tVME8L1ireBxmZpX01-77" target="F6tVME8L1ireBxmZpX01-76">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="1510" as="sourcePoint" />
+            <mxPoint x="160" y="1460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6tVME8L1ireBxmZpX01-79" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="F6tVME8L1ireBxmZpX01-76" target="F6tVME8L1ireBxmZpX01-72">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="1400" as="sourcePoint" />
+            <mxPoint x="280" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
