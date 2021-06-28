@@ -4,4 +4,8 @@ arr = [
   ['G', 'H', 'I']
 ]
 
-p arr
+arr.each do |inner_arr|
+  inner_arr.each do |word|
+    p word
+  end
+end
